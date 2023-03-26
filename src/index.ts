@@ -34,7 +34,13 @@
 // tupleSample();
 
 //07. generic
-import genericBasicSample from './generics/base'
-import genericsAdvancedSample from './generics/advanced'
-genericBasicSample()
-genericsAdvancedSample()
+// import genericBasicSample from './generics/base'
+// import genericsAdvancedSample from './generics/advanced'
+// genericBasicSample()
+// genericsAdvancedSample()
+
+//08. 非同期処理
+import callback from './asyncronous/callback'
+import promiseSample from './asyncronous/promise';
+callback();
+promiseSample();
