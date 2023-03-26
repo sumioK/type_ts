@@ -41,6 +41,8 @@
 
 //08. 非同期処理
 import callback from './asyncronous/callback'
-import promiseSample from './asyncronous/promise';
-callback();
-promiseSample();
+import promiseSample from './asyncronous/promise'
+import asyncAwaitSample from './asyncronous/asyncAwait';
+// callback();
+// promiseSample();
+asyncAwaitSample();
